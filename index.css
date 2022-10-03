@@ -80,10 +80,71 @@ main {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
-  background-color: #acacac;
+}
+
+.tagContainer > span {
+  padding: 10px;
+  border-radius: 20px;
+  border: #111 1px solid;
+  background-color: #555;
+  color: #ffffff;
 }
 
 .sectionContainer > figure {
   width: 30%;
   height: 30%;
+}
+
+.wrapper {
+  display: grid;
+}
+
+.party-item {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  border: #fafaac 1px solid;
+  background-color: antiquewhite;
+  padding: 20px;
+  background-image: url(./party_background.jpg);
+}
+
+.acessories-item {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  border: #fafaac 1px solid;
+  background-color: antiquewhite;
+  padding: 20px;
+  background-image: url(./party_background.jpg);
+}
+
+.house-item {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  border: #fafaac 1px solid;
+  background-color: antiquewhite;
+  padding: 20px;
+  background-image: url(./party_background.jpg);
+}
+
+.eletronic-item {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  border: #fafaac 1px solid;
+  background-color: antiquewhite;
+  padding: 20px;
+  background-image: url(./party_background.jpg);
+}
+
+.tricks-item {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  border: #fafaac 1px solid;
+  background-color: antiquewhite;
+  padding: 20px;
+  background-image: url(./party_background.jpg);
 }
